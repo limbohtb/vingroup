@@ -17,16 +17,16 @@
 
         <ul>
             <img src="img/logo.png" alt="">
-            <li><a href="index.html">Trang chủ</a></li>
-            <li><a href="lienhe.html">Sản phẩm khác của Vin</a></li>
+            <li><a href="index.php">Trang chủ</a></li>
+            <li><a href="lienhe.php">Sản phẩm khác của Vin</a></li>
             <li><a href="">Đăng nhập</a>
                 <ul>
-                    <li><a href="dangnhap.html">Đăng nhập</a></li>
-                    <li><a href="dangki.html">Đăng kí</a></li>
+                    <li><a href="dangnhap.php">Đăng nhập</a></li>
+                    <li><a href="dangki.php">Đăng kí</a></li>
                 </ul>
             </li>
-            <li><a href="muahang.html">Mua hàng</a></li>
-            <li><a href="gopy.html">Góp ý</a></li>
+            <li><a href="muahang.php">Mua hàng</a></li>
+            <li><a href="gopy.php">Góp ý</a></li>
 
 
 
