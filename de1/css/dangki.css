@@ -1,0 +1,45 @@
+main{
+    margin-top: 82px;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+main form{
+   
+    width: 80%;
+    margin: 20px 10%;
+}
+main form .ip{
+    width: 1000px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px #ccc; 
+    margin: 10px 0;
+}
+main form textarea{
+    width: 1000px;
+    height:60px;
+    border-radius: 5px;
+    border: solid 1px #ccc; 
+   
+
+}
+main form button{
+    border: none;
+    width: 1000px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+main form button:hover{
+    background-color: #ccc;
+}
+.inp{
+    margin: 10px 0;
+}
+.que{
+    margin: 10px 0;
+}

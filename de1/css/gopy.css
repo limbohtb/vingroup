@@ -1,0 +1,18 @@
+.nd{
+    margin-top: 100px;
+}
+.nd ul{
+    margin-left: 200px;
+}
+.nd li{
+    display: inline-block;
+    margin: 30px 60px;
+}
+.nd li i{
+    font-size: 35px;
+    margin-left: 20px;
+    
+}
+.nd li h3 ,p{
+    margin: 10px 0;
+}

@@ -1,0 +1,251 @@
+main{
+    width: 100%;
+}
+main>img{
+   
+    margin-top: 82px;
+    width: 100%;
+}
+section{
+    margin-left: 35px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+}
+section img{
+    width: 90%;
+}
+.content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h3,h4{
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(86, 92, 90);
+}
+h3:hover{
+    color: wheat;
+}
+h4:hover{
+    color: aquamarine;
+}
+
+.centter{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 400px;
+}
+.centter.trai{
+    width: 100%;
+    margin-top: 100px;
+}
+.trai p{
+    margin: 0 40px;
+    font-size: 18px;
+}
+.trai button{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: red;
+   margin-left: 250px;
+   margin-top: 40px;
+   opacity: 0.9;
+   border: none;
+   color: white;
+}
+.trai button:hover{
+    background-color: #ccc;
+    color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   
+}
+.thanhtuu {
+    width: 90%;
+    margin: 20px 5%;
+}
+h2{
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(228, 133, 18);
+}
+
+.thanhtuu p{
+    margin-top: 10px;
+}
+.duan{
+    margin-bottom: 50px;
+}
+.mebum{
+    width: 100%;
+   display: grid;
+   grid-template-columns: 60% 40%;
+}
+.dn p{
+    width: 600px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.dn img{
+    margin-left: 50px;
+    overflow: hidden;
+    transform: translateX(1.05);
+}
+.dn img:hover{
+    transform: translateX(1.05);
+}
+h5{
+    font-size: 25px;
+    text-align: center;
+    margin: 15px  0;
+}
+h6{
+   margin: 20px 0 30px 130px;
+   font-size: 20px;
+}
+.contact{
+    margin-bottom: 200px;
+}
+.contact form{
+    padding-top: 100px;
+    position: relative;
+    width: 800px;
+    margin-right: 200px;
+}
+.ip{
+    border: none;
+    border-bottom: solid 3px #ccc;
+    width: 300px;
+    margin: 10px ;
+    height: 30px;
+}
+.contact button{
+    border: none;
+    box-shadow:  0 0 10px rgba(0, 0 ,0,0.3);
+    background-color: rgb(224, 9, 56);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 20px 250px;
+    color: white
+}
+label{
+  margin: 20px 300px;
+    font-size: 25px;
+    color: crimson;
+}
+.aq{
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+}
+address{
+    width: 350px;
+    height: 500px;
+    border: solid 2px #ccc;
+  margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+address ul{
+    margin-top: 20px;
+}
+address ul li{
+    margin: 15px 25px;
+}
+address ul li a{
+    text-decoration: none;
+    color: darkred;
+}
+address ul li a:hover{
+    color: yellowgreen;
+}
+.as{
+    background-color: yellowgreen;
+    height: 50px;
+    border-bottom: solid 2px black;
+}
+address p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.topp{
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+
+
+.trip{
+    height: 500px;
+    position: relative; /* định vị vị trí của khối div trip */
+    width: fit-content; /* độ rộng của khối fit đúng nội dung bên trong */
+    overflow: hidden; /* những thành phần nào nằm ngoài phạm vi hiển thị của khối sẽ bị ẩn đi */
+    
+}
+
+.info{
+    position: absolute; /* định vị vị trí của khối info so với vị trí của khối trip */
+    bottom: 0;  /* vị trí của khối info sẽ nằm sát phía dưới */
+    background-color: #fff;
+    width: 100%;    /* độ rộng của khối info = độ rộng của khối trip */
+    transform: translateY(120px); /* khối info di chuyển theo trục Y (thẳng đứng) - lùi xuống phía dưới 120px */
+    transition: ease-in-out 1s; 
+    /* ease-in-out: tăng độ mượt cho animation 
+        1s: thời gian diễn ra animation
+    */
+    animation-name: fadeOut;    /* tên của animation được định nghĩa bởi @keyframes bên dưới*/
+    animation-duration: 1s;     /* thời gian diễn ra animation đó*/
+}
+.info h2, .info p{
+    display: block;
+    width: 100%; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.info button{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+.trip:hover .info{
+    /* khi hover vào khối trip thì thay đổi thuộc tính css của khối info */
+    transform: translateY(0); /* di chuyển đi lên, trở lại vị trí ban đầu */
+    transition: ease-in-out 1s; 
+    /* ease-in-out: tăng độ mượt cho animation 
+        1s: thời gian diễn ra animation
+    */
+    animation-name: fadeIn;     /* tên của animation được định nghĩa bởi @keyframes bên dưới*/
+    animation-duration: 1s;     /* thời gian diễn ra animation đó*/
+}
+
+@keyframes fadeIn{  /* định nghĩa animation*/
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
